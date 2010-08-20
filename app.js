@@ -21,7 +21,8 @@ app.configure(function(){
 	app.use(connect.conditionalGet());
 	app.use(connect.cache());
 //	app.use(connect.session());
-	app.use(connect.staticProvider(__dirname + '/todos'));
+//	app.use(connect.staticProvider(__dirname + '/todos'));
+	app.use(connect.staticProvider(__dirname + '/todosapp'));
     app.use(app.router);
 });
 
@@ -37,8 +38,12 @@ app.configure('production', function(){
 	Todos.createSampleData();
 })();
 
+// app.get('/', function(request, response) {
+// 	response.render('./todos/');
+// });
+
 app.get('/', function(request, response) {
-	response.render('./todos/');
+	response.render('./todosapp/');
 });
 
 app.get('/tasks', function(request, response) {
