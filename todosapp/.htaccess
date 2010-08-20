@@ -1,0 +1,5 @@
+
+
+<Files app.manifest>
+	Header set Content-Type text/cache-manifest
+</Files>

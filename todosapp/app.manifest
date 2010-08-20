@@ -1,0 +1,106 @@
+CACHE MANIFEST
+
+CACHE:
+# 26DE145A41135AB332DBEA5A542B3EEE
+Application.js
+# 64A99CF8CEA206847469FEADEFF96C96
+index-debug.html
+# 098674D499CD6D72B1A368E012415A60
+index.html
+# 9DBCA6DC0B804396533597ABCF087444
+Jakefile
+# 31D959EB7136AF5F58ED778095E21E13
+Build/Debug/Todos/index.html
+# 081C8CF20248D76F8A0C28D8ECCEA316
+Build/Debug/Todos/Info.plist
+# B77B0BCBDA1D7C3DAD8581974976B773
+Build/Debug/Todos/Browser.environment/dataURLs.txt
+# 62D397D60B7969A0CEA1CFB54C21619A
+Build/Debug/Todos/Browser.environment/Todos.sj
+# 51BF2E46FA33BE1920F05D7BA92B9BEF
+Build/Debug/Todos/Frameworks/AppKit/Info.plist
+# 03A7E7861B713636D6560704664AE435
+Build/Debug/Todos/Frameworks/AppKit/Browser.environment/AppKit.sj
+# 6E373AB5F8CFE3DBA26F50DA1119D7B2
+Build/Debug/Todos/Frameworks/AppKit/Browser.environment/dataURLs.txt
+# 65B4592D732CFE3B2D4B900A1A9B2973
+Build/Debug/Todos/Frameworks/AppKit/Resources/AboutPanel.cib
+# 335738E860587DED3736F7E26801DEC9
+Build/Debug/Todos/Frameworks/AppKit/Resources/wheel.png
+# 5781BF9EE4ABF0BE7E40484269E92BAB
+Build/Debug/Todos/Frameworks/AppKit/Resources/Aristo.blend/Info.plist
+# 0959DBE1381AD9DC307D3E34FAC7B4E1
+Build/Debug/Todos/Frameworks/AppKit/Resources/Aristo.blend/Browser.environment/Aristo.blend.sj
+# B25708355014B67CE347777A5EF713A9
+Build/Debug/Todos/Frameworks/AppKit/Resources/Aristo.blend/Browser.environment/dataURLs.txt
+# 56357744CC66E4C513E6AF509C940D47
+Build/Debug/Todos/Frameworks/Foundation/Info.plist
+# F58F2861E0B490E07F9B26F0E1CEE36D
+Build/Debug/Todos/Frameworks/Foundation/ObjJ.environment/Foundation.sj
+# F26C14403432A9332252912468BD543F
+Build/Debug/Todos/Frameworks/Objective-J/Objective-J.js
+# 31D959EB7136AF5F58ED778095E21E13
+Build/Release/Todos/index.html
+# 081C8CF20248D76F8A0C28D8ECCEA316
+Build/Release/Todos/Info.plist
+# B77B0BCBDA1D7C3DAD8581974976B773
+Build/Release/Todos/Browser.environment/dataURLs.txt
+# 63614F3AC53563EF9DA07DC03B2BCC78
+Build/Release/Todos/Browser.environment/Todos.sj
+# 51BF2E46FA33BE1920F05D7BA92B9BEF
+Build/Release/Todos/Frameworks/AppKit/Info.plist
+# 03A7E7861B713636D6560704664AE435
+Build/Release/Todos/Frameworks/AppKit/Browser.environment/AppKit.sj
+# 6E373AB5F8CFE3DBA26F50DA1119D7B2
+Build/Release/Todos/Frameworks/AppKit/Browser.environment/dataURLs.txt
+# 65B4592D732CFE3B2D4B900A1A9B2973
+Build/Release/Todos/Frameworks/AppKit/Resources/AboutPanel.cib
+# 335738E860587DED3736F7E26801DEC9
+Build/Release/Todos/Frameworks/AppKit/Resources/wheel.png
+# 5781BF9EE4ABF0BE7E40484269E92BAB
+Build/Release/Todos/Frameworks/AppKit/Resources/Aristo.blend/Info.plist
+# 0959DBE1381AD9DC307D3E34FAC7B4E1
+Build/Release/Todos/Frameworks/AppKit/Resources/Aristo.blend/Browser.environment/Aristo.blend.sj
+# B25708355014B67CE347777A5EF713A9
+Build/Release/Todos/Frameworks/AppKit/Resources/Aristo.blend/Browser.environment/dataURLs.txt
+# 56357744CC66E4C513E6AF509C940D47
+Build/Release/Todos/Frameworks/Foundation/Info.plist
+# F58F2861E0B490E07F9B26F0E1CEE36D
+Build/Release/Todos/Frameworks/Foundation/ObjJ.environment/Foundation.sj
+# F26C14403432A9332252912468BD543F
+Build/Release/Todos/Frameworks/Objective-J/Objective-J.js
+# 422D57FBC58FD607853978FCDEEE8CCF
+Build/Todos.build/Debug/Browser.environment/Sources/AppController.j
+# E944D71FBA1CDED40A222ECB6D440CC0
+Build/Todos.build/Debug/Browser.environment/Sources/main.j
+# 04F2DC8B482A61D03F769341D62B5298
+Build/Todos.build/Debug/Browser.environment/Sources/RESTConnection.j
+# ADECCCA6DF833E633EAF31DC417D9DF9
+Build/Todos.build/Debug/Browser.environment/Sources/Task.j
+# CB44A260AABB676A0099D0206502144D
+Build/Todos.build/Debug/Browser.environment/Sources/Todos.j
+# 7BE262E86CB5EC0020DB230C805A56DE
+Build/Todos.build/Release/Browser.environment/Sources/AppController.j
+# 4437D45A53B1DD9E8AC1315AA9300891
+Build/Todos.build/Release/Browser.environment/Sources/main.j
+# D8F812E0A317AB4D2F1BE3C170D2CCA2
+Build/Todos.build/Release/Browser.environment/Sources/RESTConnection.j
+# B2901BC73A188CC2417C289EDF716496
+Build/Todos.build/Release/Browser.environment/Sources/Task.j
+# A353B93141F0912D0AB4A8E73DEFC6CA
+Build/Todos.build/Release/Browser.environment/Sources/Todos.j
+# 6E373AB5F8CFE3DBA26F50DA1119D7B2
+Frameworks/AppKit/Browser.environment/dataURLs.txt
+# 65B4592D732CFE3B2D4B900A1A9B2973
+Frameworks/AppKit/Resources/AboutPanel.cib
+# 335738E860587DED3736F7E26801DEC9
+Frameworks/AppKit/Resources/wheel.png
+# B25708355014B67CE347777A5EF713A9
+Frameworks/AppKit/Resources/Aristo.blend/Browser.environment/dataURLs.txt
+# F26C14403432A9332252912468BD543F
+Frameworks/Objective-J/Objective-J.js
+# 7B0D8BE41D064627FBDDCB2E6EF371E6
+Resources/spinner.gif
+
+NETWORK:
+*
