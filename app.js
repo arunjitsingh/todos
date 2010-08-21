@@ -65,7 +65,7 @@ app.get('/task/:id', function(request, response) {
 
 app.post('/', function(request, response) {
 	Responder(response)
-		.jsonp(request.param('callback'))
+		.json()
 		.end(301, {status:false, error:"You cannot POST to this URL. Try [POST] /task"},
 		 	 {Location:"task"});
 });
@@ -74,12 +74,12 @@ app.post('/task', function(request, response) {
 	var data = request.body;
 	if (data) {
 		Todos.create(data, function() {
-			Responder(response).jsonp(request.param('callback')).end(201, {success:true});
+			Responder(response).json().end(201, {success:true});
 		});
 	} else {
 		console.log(JSON.stringify(request.body));
 		Responder(response)
-			.jsonp(request.param('callback'))
+			.json()
 			.end(400, {success:false, error:"Task could not be created: no data found"});
 	}
 });
@@ -89,12 +89,12 @@ app.put('/task/:id', function(request, response) {
 	if (data) {
 		var id = request.params.id;
 		Todos.update(id, data, function() {
-			Responder(response).jsonp(request.param('callback')).end(200, {success:true});
+			Responder(response).json().end(200, {success:true});
 		});
 	} else {
 		console.log(JSON.stringify(request.body));
 		Responder(response)
-			.jsonp(request.param('callback'))
+			.json()
 			.end(400, {success:false, error:"Task could not be created: no data found"});
 	}
 });
@@ -102,7 +102,7 @@ app.put('/task/:id', function(request, response) {
 app.del('/task/:id', function(request, response) {
 	var id = request.params.id;
 	Todos.destroy(id, function(array) {
-		Responder(response).jsonp(request.param('callback')).end(200, {success:true});
+		Responder(response).json().end(200, {success:true});
 	});
 });
 
