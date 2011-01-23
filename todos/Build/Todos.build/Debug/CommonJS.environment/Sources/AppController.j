@@ -1,4 +1,4 @@
-@STATIC;1.0;I;21;Foundation/CPObject.jI;15;AppKit/CPView.ji;7;Todos.ji;6;Task.ji;16;RESTConnection.jt;11764;objj_executeFile("Foundation/CPObject.j", NO);
+@STATIC;1.0;I;21;Foundation/CPObject.jI;15;AppKit/CPView.ji;7;Todos.ji;6;Task.ji;16;RESTConnection.jt;11810;objj_executeFile("Foundation/CPObject.j", NO);
 objj_executeFile("AppKit/CPView.j", NO);
 objj_executeFile("Todos.j", YES);
 objj_executeFile("Task.j", YES);
@@ -27,7 +27,7 @@ var meta_class = the_class.isa;class_addMethods(the_class, [new objj_method(sel_
 { with(self)
 {
  if (!aSelector) {
-  objj_msgSend(CPException, "raise:reason:", CPInvalidArgumentException, "mutateObjectsByPerformingSelector: 'aSelector' can't be nil");
+  objj_msgSend(CPException, "raise:reason:", CPInvalidArgumentException, "- mutateObjectsByPerformingSelector: 'aSelector' can't be nil");
  }
  var index = 0,
   count = objj_msgSend(self, "count");
@@ -102,6 +102,7 @@ class_addMethods(the_class, [new objj_method(sel_getUid("applicationDidFinishLau
  objj_msgSend(resultsArea, "setDocumentView:", tasksList);
  tasksConnection = objj_msgSend(RESTConnection, "new");
     objj_msgSend(theWindow, "orderFront:", self);
+    objj_msgSend(self, "fetchTasks:", nil);
 }
 },["void","CPNotification"]), new objj_method(sel_getUid("renderResults:"), function $AppController__renderResults_(self, _cmd, results)
 { with(self)
